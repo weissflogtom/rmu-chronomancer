@@ -4,6 +4,9 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Chronomancer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700&family=Cinzel+Decorative:wght@700&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
@@ -21,6 +24,7 @@
   </main>
 
   <footer>
+    <div class="footer-actions">
     <div class="footer-left">
       <button id="add-npc-btn" class="btn btn-secondary">+ Add NPC</button>
       <button id="add-pc-btn" class="btn btn-secondary">+ Add PC</button>
@@ -42,6 +46,8 @@
       <label for="import-file" class="btn btn-ghost" role="button">Import</label>
       <input type="file" id="import-file" accept=".json" class="hidden" />
     </div>
+    </div>
+    <p class="dedication">~ For Don, Keeper of the Fellowship ~</p>
   </footer>
 
   <div id="modal-overlay" class="modal-overlay hidden" role="dialog" aria-modal="true" aria-label="Manage PC Templates">
